@@ -1,0 +1,17 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "gulp serve",
+    "deploy": "gulp build --production",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-webserver": "0.9.1"
+  }
+}
