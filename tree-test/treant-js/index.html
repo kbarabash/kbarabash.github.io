@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>treant.min</title>
+    <script src="js/config.js"></script>
+    <script src="js/lib/vendor/raphael.js"></script>
+    <script src="js/lib/Treant.js"></script>
+    <link rel="stylesheet" href="js/lib/Treant.css" type="text/css"/>
+    <link href="js/lib/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css"/>
+    <script src="js/lib/vendor/jquery.min.js"></script>
+    <script src="js/lib/vendor/jquery.mousewheel.js"></script>
+    <script src="js/lib/vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+</head>
+<body id="body" style="overflow: auto">
+
+    <script>
+        var configChart = {
+            chart: {
+                container: "#body",
+                connectors: {
+                    type: 'step'
+                },
+                scrollbar: 'fancy'
+            },
+
+            nodeStructure: config
+
+            };
+        var my_chart = new Treant(configChart);
+    </script>
+</body>
+</html>
